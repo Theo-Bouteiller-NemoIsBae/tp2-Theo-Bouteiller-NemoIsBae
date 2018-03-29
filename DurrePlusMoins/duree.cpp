@@ -25,7 +25,7 @@ void DUREE::display() const {
     cout << '[' << setw(10) << myDays << ':'
                 << setfill ('0') << setw(2) << myHours << ':'
                                  << setw(2) << myMinutes << ':'
-                                 << setw(2) << mySeconds << ':'
+                                 << setw(2) << mySeconds << ']'
                 << setfill (' ');
 
 }
